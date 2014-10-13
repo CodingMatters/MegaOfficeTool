@@ -1,5 +1,5 @@
 {
-    "name": "codingmatters/megamitch-office-tool",
+    "name": "megamitch/megamitch-office-tool",
     "description": "Mega Mitch Credit, Inc. Office Tool (MOT) is an enterprise (internal) application used by Mega Mitch Credit, Inc.",
     "license": "MIT",
     "type": "application",
@@ -8,7 +8,7 @@
         "office tools",
         "zf2"
     ],
-    "homepage": "https://github.com/CodingMatters/MegaOfficeTool/",
+    "homepage": "http://megamitch.ph",
     "authors": [
         {
             "name": "Gab Amba",
