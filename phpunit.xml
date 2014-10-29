@@ -36,7 +36,7 @@
     </logging>
     <testsuites>
         <testsuite name="MotMain">
-            <directory>./module/Application/tests</directory>            
+            <directory>./module/Mot/tests</directory>            
             <directory>./module/MotUsers/tests</directory>            
             <!--<directory>./module/MotMambu/tests</directory>-->
         </testsuite>
