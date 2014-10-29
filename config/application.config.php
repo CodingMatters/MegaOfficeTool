@@ -29,9 +29,11 @@ return [
     'modules' => [
         'EdpModuleLayouts',
         'DoctrineModule',
+//        'DoctrineORMModule',
         'ZfcBase',
         'ZfcUser',
         'ZfcRbac',
+//        'ZfcUserDoctrineORM',
         'Mot',
         'MotUsers',
     ],
