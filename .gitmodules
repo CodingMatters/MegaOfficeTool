@@ -1,6 +1,0 @@
-[submodule "module/MotUsers"]
-	path = module/MotUsers
-	url = https://github.com/megamitch/MOT_Users.git
-[submodule "module/Mot"]
-	path = module/Mot
-	url = https://github.com/megamitch/MOT_Application.git
