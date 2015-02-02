@@ -22,3 +22,5 @@ extras/documentation
 # test coverage
 build/
 
+# 3rd party UI libraries
+public/assets/
