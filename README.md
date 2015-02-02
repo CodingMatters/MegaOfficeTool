@@ -5,6 +5,22 @@ MOT is an enterprise (internal) application used by [Mega Mitch Credit, Inc](htt
 
 [![Latest Stable Version](https://poser.pugx.org/megamitch/megamitch-office-tool/v/stable.svg)](https://packagist.org/packages/megamitch/megamitch-office-tool) [![Total Downloads](https://poser.pugx.org/megamitch/megamitch-office-tool/downloads.svg)](https://packagist.org/packages/megamitch/megamitch-office-tool) [![Latest Unstable Version](https://poser.pugx.org/megamitch/megamitch-office-tool/v/unstable.svg)](https://packagist.org/packages/megamitch/megamitch-office-tool) [![License](https://poser.pugx.org/megamitch/megamitch-office-tool/license.svg)](https://packagist.org/packages/megamitch/megamitch-office-tool) [![Build Status](https://travis-ci.org/megamitch/MegaOfficeTool.svg)](https://travis-ci.org/megamitch/MegaOfficeTool)
 
+Submodules
+----------
+
+#### [Mot](https://github.com/megamitch/MOT_Application) [![Latest Stable Version](https://poser.pugx.org/megamitch/mot-application/v/stable.svg)](https://packagist.org/packages/megamitch/mot-application) [![License](https://poser.pugx.org/megamitch/mot-application/license.svg)](https://packagist.org/packages/megamitch/mot-application) [![Build Status](https://travis-ci.org/megamitch/MOT_Application.svg)](https://travis-ci.org/megamitch/MOT_Application) 
+
+Mega Mitch Office Tool (MOT) is an internal application used for day-to-day transaction within Mega Mitch and its clients.
+
+#### [MotAttendance] (https://github.com/megamitch/Attendance) [![Latest Stable Version](https://poser.pugx.org/megamitch/mot-attendance/v/stable.svg)](https://packagist.org/packages/megamitch/mot-attendance) [![License](https://poser.pugx.org/megamitch/mot-attendance/license.svg)](https://packagist.org/packages/megamitch/mot-attendance) [![Build Status](https://travis-ci.org/megamitch/Attendance.svg)](https://travis-ci.org/megamitch/Attendance)
+
+Daily transaction report for Mega Mitch Credit, Inc. employees
+
+#### [MotReports] (https://github.com/megamitch/MOT_Reports) [![Latest Stable Version](https://poser.pugx.org/megamitch/mot-reports/v/stable.svg)](https://packagist.org/packages/megamitch/mot-reports) [![License](https://poser.pugx.org/megamitch/mot-reports/license.svg)](https://packagist.org/packages/megamitch/mot-reports) [![Build Status](https://travis-ci.org/megamitch/MOT_Reports.svg)](https://travis-ci.org/megamitch/MOT_Reports)
+
+Reporting module
+
+
 Installation
 ------------
 
@@ -14,14 +30,14 @@ The recommended way to get a working copy of this project is to clone the reposi
 and use `composer` to install dependencies using the `create-project` command:
 
     curl -s https://getcomposer.org/installer | php --
-    php composer.phar create-project --prefer-source --no-dev codingmatters/megamitch-mot path/to/install
+    sudo php composer.phar create-project --prefer-source --no-dev megamitch/office-tool /var/www/html/MOT
 
 Alternately, clone the repository and manually invoke `composer` using the shipped
 `composer.phar`:
 
-    cd my/project/dir
-    git clone git://github.com/CodingMatters/MegaOfficeTool.git
-    cd MegaOfficeTool
+    cd /var/www/html
+    sudo git clone git://github.com/CodingMatters/MegaOfficeTool.git MOT
+    cd MOT
     git submodule init
     git submodue update
     php composer.phar self-update
