@@ -26,8 +26,12 @@
 
 return [
     'modules' => [
-        'Mot',
-        'MotUsers'
+        'MotMambu',
+        'MotUsers',
+        'Mot',        
+        'MotReports',
+        'MotOb',
+        'MotAttendance'
     ],
     
     'module_listener_options' => [

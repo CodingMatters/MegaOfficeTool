@@ -1,0 +1,18 @@
+[submodule "module/Mot"]
+	path = module/Mot
+	url = https://github.com/megamitch/MOT_Application.git
+[submodule "module/MotUsers"]
+	path = module/MotUsers
+	url = https://github.com/megamitch/MOT_Users.git
+[submodule "module/MotAttendance"]
+	path = module/MotAttendance
+	url = https://github.com/megamitch/Attendance.git
+[submodule "module/MotOb"]
+	path = module/MotOb
+	url = https://github.com/megamitch/MOT_OB.git
+[submodule "module/MotMambu"]
+	path = module/MotMambu
+	url = https://github.com/megamitch/MOT_MambuAPI.git
+[submodule "module/MotReports"]
+	path = module/MotReports
+	url = https://github.com/megamitch/MOT_Reports.git
