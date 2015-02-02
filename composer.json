@@ -39,7 +39,9 @@
             "rm -rf public/assets/mot-attendance",
             "rm -rf public/assets/mot-reports",
             "rm -rf public/assets/datatables",
-            "rm -rf public/assets/mot-ob"
+            "rm -rf public/assets/mot-ob",
+            "rm -rf config/autoload/zfcuser.global.php",
+            "rm -rf config/autoload/zfcrbac.global.php"
         ],
         "post-install-cmd": [
             "git submodule update --init",
@@ -53,7 +55,8 @@
             "cp -a module/MotAttendance/data/assets/mot-attendance public/assets",
             "cp -a module/MotReports/data/assets/mot-reports public/assets",
             "cp -a module/MotReports/data/assets/datatables public/assets",
-            "cp -a module/MotOb/data/assets/mot-ob public/assets"
+            "cp -a module/MotOb/data/assets/mot-ob public/assets",
+            "cp -a module/MotUsers/data/config/* config/autoload"
         ],
         "pre-update-cmd": [
             "rm -rf public/assets/jquery",
@@ -64,7 +67,9 @@
             "rm -rf public/assets/mot-attendance",
             "rm -rf public/assets/mot-reports",
             "rm -rf public/assets/datatables",
-            "rm -rf public/assets/mot-ob"
+            "rm -rf public/assets/mot-ob",
+            "rm -rf config/autoload/zfcuser.global.php",
+            "rm -rf config/autoload/zfcrbac.global.php"
         ],
         "post-update-cmd": [
             "git submodule sync",
@@ -78,7 +83,8 @@
             "cp -a module/MotAttendance/data/assets/mot-attendance public/assets",
             "cp -a module/MotReports/data/assets/mot-reports public/assets",
             "cp -a module/MotReports/data/assets/datatables public/assets",
-            "cp -a module/MotOb/data/assets/mot-ob public/assets"
+            "cp -a module/MotOb/data/assets/mot-ob public/assets",
+            "cp -a module/MotUsers/data/config/* config/autoload"
         ]
     }
 }
