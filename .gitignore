@@ -5,6 +5,9 @@ vendor/
 # Local configs
 config/autoload/*.local.php
 
+# 3rd-party Global config
+config/autoload/*.global.php
+
 # Binary gettext files
 *.mo
 
