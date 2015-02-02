@@ -33,10 +33,10 @@ return [
         'ZfcRbac',
         'MotMambu',
         'MotUsers',
-        'Mot',        
         'MotReports',
         'MotOb',
-        'MotAttendance'
+        'MotAttendance',   
+        'Mot'
     ],
 
     // These are various options for the listeners attached to the ModuleManager
