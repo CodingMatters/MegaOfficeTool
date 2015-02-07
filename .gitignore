@@ -23,7 +23,7 @@ demos/
 extras/documentation
 
 # test coverage
-build/
+public/build/
 
 # 3rd party UI libraries
 public/assets/
