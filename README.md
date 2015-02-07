@@ -12,13 +12,17 @@ Submodules
 
 Mega Mitch Office Tool (MOT) is an internal application used for day-to-day transaction within Mega Mitch and its clients.
 
+#### [MotReports] (https://github.com/megamitch/MOT_Reports) [![Latest Stable Version](https://poser.pugx.org/megamitch/mot-reports/v/stable.svg)](https://packagist.org/packages/megamitch/mot-reports) [![License](https://poser.pugx.org/megamitch/mot-reports/license.svg)](https://packagist.org/packages/megamitch/mot-reports) [![Build Status](https://travis-ci.org/megamitch/MOT_Reports.svg)](https://travis-ci.org/megamitch/MOT_Reports)
+
+Reporting module
+
 #### [MotAttendance] (https://github.com/megamitch/Attendance) [![Latest Stable Version](https://poser.pugx.org/megamitch/mot-attendance/v/stable.svg)](https://packagist.org/packages/megamitch/mot-attendance) [![License](https://poser.pugx.org/megamitch/mot-attendance/license.svg)](https://packagist.org/packages/megamitch/mot-attendance) [![Build Status](https://travis-ci.org/megamitch/Attendance.svg)](https://travis-ci.org/megamitch/Attendance)
 
 Daily transaction report for Mega Mitch Credit, Inc. employees
 
-#### [MotReports] (https://github.com/megamitch/MOT_Reports) [![Latest Stable Version](https://poser.pugx.org/megamitch/mot-reports/v/stable.svg)](https://packagist.org/packages/megamitch/mot-reports) [![License](https://poser.pugx.org/megamitch/mot-reports/license.svg)](https://packagist.org/packages/megamitch/mot-reports) [![Build Status](https://travis-ci.org/megamitch/MOT_Reports.svg)](https://travis-ci.org/megamitch/MOT_Reports)
+#### [MotOb] (https://github.com/megamitch/MOT_OB) [![Latest Stable Version](https://poser.pugx.org/megamitch/mot-ob/v/stable.svg)](https://packagist.org/packages/megamitch/mot-ob) [![License](https://poser.pugx.org/megamitch/mot-ob/license.svg)](https://packagist.org/packages/megamitch/mot-ob) [![Build Status](https://travis-ci.org/megamitch/MOT_OB.svg)](https://travis-ci.org/megamitch/MOT_OB)
 
-Reporting module
+Official Business tool for Mega Mitch, Inc. employees
 
 
 Installation

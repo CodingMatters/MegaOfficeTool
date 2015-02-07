@@ -33,9 +33,9 @@ return [
         'ZfcRbac',
         'MotMambu',
         'MotUsers',
-//        'MotReports',
-//        'MotOb',
-//        'MotAttendance',
+        'MotReports',
+        'MotAttendance',
+        'MotOb',        
         'Mot'
     ],
 

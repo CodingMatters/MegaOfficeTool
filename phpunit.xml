@@ -26,68 +26,27 @@
 -->
 <phpunit bootstrap="Bootstrap.php" colors="true">
     <logging>
-        <log type="coverage-html"  target="build/coverage" title="MegaMitch"
+        <log type="coverage-html"  target="public/build/coverage" title="MegaMitchOfficeTool"
         charset="UTF-8" yui="true" highlight="true"
         lowUpperBound="35" highLowerBound="true" />
-        <log type="coverage-clover" target="build/logs/clover.xml" />
-        <log type="junit" target="build/logs/junit.xml" logIncompleteSkipped="false"/>
-        <log type="testdox-html" target="build/phpdox/index.html"/>
-        <log type="testdox-txt" target="build/phpdox/testdox.txt"/>
+        <log type="coverage-clover" target="public/build/logs/clover.xml" />
+        <log type="junit" target="public/build/logs/junit.xml" logIncompleteSkipped="false"/>
+        <log type="testdox-html" target="public/build/phpdox/index.html"/>
+        <log type="testdox-txt" target="public/build/phpdox/testdox.txt"/>
     </logging>
     <testsuites>
-        <testsuite name="MotMain">
+        <testsuite name="Integration">
             <directory>./module/Mot/tests</directory>            
             <directory>./module/MotUsers/tests</directory>            
-            <!--<directory>./module/MotMambu/tests</directory>-->
-        </testsuite>
-        <testsuite name="MotAdmin">
-            <!--<directory>./module/MotBranches/tests</directory>-->
-            <!--<directory>./module/MotUsers/tests</directory>-->
-            <!--<directory>./module/MotClients/tests</directory>-->            
-            <!--<directory>./module/MotAdmin/tests</directory>-->
-            <!--<directory>./module/MotDispute/tests</directory>-->
-        </testsuite>
-        <testsuite name="MotReports">
-            <!--<directory>./module/MotReports/tests</directory>-->
-            <!--<directory>./module/MotUserReports/tests</directory>-->                      
-            <!--<directory>./module/MotBranchReports/tests</directory>-->
-            <!--<directory>./module/MotDisputeReports/tests</directory>-->
-            <!--<directory>./module/MotAdminReportsPermission/tests</directory>-->
-            <!--<directory>./module/MotClientReports/tests</directory>-->
-            <!--<directory>./module/MotCollateralReports/tests</directory>-->
-            <!--<directory>./module/MotFinancialReports/tests</directory>-->
-            <!--<directory>./module/MotLegalReports/tests</directory>-->            
-        </testsuite>
-        <testsuite name="MotCollateral">
-            <!--<directory>./module/MotCollateral/tests</directory>-->
-            <!--<directory>./module/MotCollateralDispute/tests</directory>-->
-            <!--<directory>./module/MotBranchWithCollateral/tests</directory>-->
-            <!--<directory>./module/MotUserCollectingCollateral/tests</directory>-->                        
-            <!--<directory>./module/MotAdminCollateralPermission/tests</directory>-->
-            <!--<directory>./module/MotClientHavingCollateral/tests</directory>-->            
-            <!--<directory>./module/MotCollateralReports/tests</directory>-->
-        </testsuite>
-        <testsuite name="MotFinance">
-            <!--<directory>./module/MotFinance/tests</directory>-->
-            <!--<directory>./module/MotUserWithFinance/tests</directory>-->                      
-            <!--<directory>./module/MotBranchFinances/tests</directory>-->            
-            <!--<directory>./module/MotAdminFinancePermission/tests</directory>-->
-            <!--<directory>./module/MotClientFinanceStatus/tests</directory>-->
-            <!--<directory>./module/MotFinancialReports/tests</directory>-->            
-        </testsuite>
-        <testsuite name="MotLegal">
-            <!--<directory>./module/MotLegal/tests</directory>-->  
-            <!--<directory>./module/MotUsersWithLegalAction/tests</directory>-->
-            <!--<directory>./module/MotBranchLegalDepartment/tests</directory>-->            
-            <!--<directory>./module/MotAdminLegalPermission/tests</directory>-->
-            <!--<directory>./module/MotClientLegalIssues/tests</directory>-->            
-            <!--<directory>./module/MotLegalReports/tests</directory>-->       
-        </testsuite>        
+            <directory>./module/MotMambu/tests</directory>
+            <directory>./module/MotReports/tests</directory>
+            <directory>./module/MotAttendance/tests</directory>
+            <directory>./module/MotOb/tests</directory>
+	</testsuite>
     </testsuites>    
     <filter>
         <whitelist processUncoveredFilesFromWhitelist="true">
             <directory suffix=".php">./module/**/src/</directory>
-            
         </whitelist>
     </filter>
 </phpunit>
