@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "be455eb2155f49b2d07d667d59ec023d",
+    "hash": "642d9eedca0315e6dbf9758d12597e37",
     "packages": [
         {
             "name": "evandotpro/edp-module-layouts",
