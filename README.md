@@ -12,6 +12,10 @@ Submodules
 
 Mega Mitch Office Tool (MOT) is an internal application used for day-to-day transaction within Mega Mitch and its clients.
 
+#### [MotUsers](https://github.com/megamitch/MOT_Users) [![Latest Stable Version](https://poser.pugx.org/megamitch/mot-users/v/stable.svg)](https://packagist.org/packages/megamitch/mot-users) [![License](https://poser.pugx.org/megamitch/mot-users/license.svg)](https://packagist.org/packages/megamitch/mot-users) [![Build Status](https://travis-ci.org/megamitch/MOT_Users.svg)](https://travis-ci.org/megamitch/MOT_Users) 
+
+User management module.
+
 #### [MotReports] (https://github.com/megamitch/MOT_Reports) [![Latest Stable Version](https://poser.pugx.org/megamitch/mot-reports/v/stable.svg)](https://packagist.org/packages/megamitch/mot-reports) [![License](https://poser.pugx.org/megamitch/mot-reports/license.svg)](https://packagist.org/packages/megamitch/mot-reports) [![Build Status](https://travis-ci.org/megamitch/MOT_Reports.svg)](https://travis-ci.org/megamitch/MOT_Reports)
 
 Reporting module

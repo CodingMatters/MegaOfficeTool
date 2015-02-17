@@ -7,8 +7,9 @@ php:
   - hhvm
   
 before_script:
+  - npm install -g bower
   - composer self-update
-  - composer update
+  - composer install
 
 script:
   - ./vendor/bin/phpunit
