@@ -38,7 +38,7 @@ The recommended way to get a working copy of this project is to clone the reposi
 and use `composer` to install dependencies using the `create-project` command:
 
     curl -s https://getcomposer.org/installer | php --
-    sudo php composer.phar create-project --prefer-source --no-dev megamitch/office-tool /var/www/html/MOT
+    sudo php composer.phar create-project --prefer-dist --no-dev --keep-vcs megamitch/office-tool /var/www/html/MOT
 
 Alternately, clone the repository and manually invoke `composer` using the shipped
 `composer.phar`:
@@ -48,7 +48,7 @@ Alternately, clone the repository and manually invoke `composer` using the shipp
     cd MOT
     git submodule init
     git submodue update
-    php composer.phar self-update
+    curl -s https://getcomposer.org/installer | php --
     php composer.phar install
 
 (The `self-update` directive is to ensure you have an up-to-date `composer.phar`
