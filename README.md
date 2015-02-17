@@ -1,7 +1,7 @@
 Mega Mitch Credit, Inc. Office Tool (MOT)
 ==============
 
-MOT is an enterprise (internal) application used by [Mega Mitch Credit, Inc](http://www.megamitch.com) developed using [Zend Framework 2](http://framework.zend.com/).
+MOT is an enterprise (internal) application used by [Mega Mitch, Inc](http://www.megamitch.com) developed using [Zend Framework 2](http://framework.zend.com/).
 
 [![Latest Stable Version](https://poser.pugx.org/megamitch/office-tool/v/stable.svg)](https://packagist.org/packages/megamitch/office-tool) [![Total Downloads](https://poser.pugx.org/megamitch/office-tool/downloads.svg)](https://packagist.org/packages/megamitch/office-tool) [![Latest Unstable Version](https://poser.pugx.org/megamitch/office-tool/v/unstable.svg)](https://packagist.org/packages/megamitch/office-tool) [![License](https://poser.pugx.org/megamitch/office-tool/license.svg)](https://packagist.org/packages/megamitch/office-tool) [![Build Status](https://travis-ci.org/megamitch/MegaOfficeTool.svg)](https://travis-ci.org/megamitch/MegaOfficeTool)
 
