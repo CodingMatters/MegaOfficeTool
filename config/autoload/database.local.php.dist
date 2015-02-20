@@ -41,16 +41,17 @@ return [
         'adapters' => [
             'motdb' => [
                 'driver'    => 'Pdo',
-                'dsn'       => 'mysql:dbname=motdb;host=localhost',
-                'username'  => 'motuser',
-                'password'  => 'motpassword'
+                'dsn'       => "mysql:dbname={$_SERVER['MASTER_DB_NAME']};"
+                    . "host={$_SERVER['MASTER_DB_SERVER']}",
+                'username'  => "{$_SERVER['MOT_DB_USERNAME']}",
+                'password'  => "{$_SERVER['MOT_DB_SECRET']}"
             ],
-            'mambudb' => [
-                'driver'    => 'Pdo',
-                'dsn'       => 'mysql:dbname=mambudb;host=localhost',
-                'username'  => 'motuser',
-                'password'  => 'motpassword'
-            ]
+//            'mambudb' => [
+//                'driver'    => 'Pdo',
+//                'dsn'       => 'mysql:dbname=mambudb;host=localhost',
+//                'username'  => 'motuser',
+//                'password'  => 'motpassword'
+//            ]
         ]
     ],
     
