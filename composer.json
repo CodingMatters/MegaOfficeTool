@@ -46,6 +46,7 @@
             "rm -rf public/assets/mot-reports",
             "rm -rf public/assets/datatables",
             "rm -rf public/assets/mot-ob",
+            "rm -rf config/autoload/database.local.php",
             "rm -rf config/autoload/zfcuser.global.php",
             "rm -rf config/autoload/zfcrbac.global.php"
         ],
@@ -57,6 +58,7 @@
             "mv bower_components/components-font-awesome public/assets/font-awesome",
             "mv bower_components/components-bootstrap public/assets/bootstrap",
             "rm -rf bower_components",
+            "cp -a config/autoload/database.local.php.dist config/autoload/database.local.php",
             "cp -a module/Mot/data/assets/mot public/assets",
             "cp -a module/MotAttendance/data/assets/mot-attendance public/assets",
             "cp -a module/MotReports/data/assets/mot-reports public/assets",
@@ -74,6 +76,7 @@
             "rm -rf public/assets/mot-reports",
             "rm -rf public/assets/datatables",
             "rm -rf public/assets/mot-ob",
+            "rm -rf config/autoload/database.local.php",
             "rm -rf config/autoload/zfcuser.global.php",
             "rm -rf config/autoload/zfcrbac.global.php"
         ],
@@ -85,6 +88,7 @@
             "mv bower_components/components-font-awesome public/assets/font-awesome",
             "mv bower_components/components-bootstrap public/assets/bootstrap",
             "rm -rf bower_components",
+            "cp -a config/autoload/database.local.php.dist config/autoload/database.local.php",
             "cp -a module/Mot/data/assets/mot public/assets",
             "cp -a module/MotAttendance/data/assets/mot-attendance public/assets",
             "cp -a module/MotReports/data/assets/mot-reports public/assets",
